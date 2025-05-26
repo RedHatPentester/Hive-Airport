@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8
+    container_name: hive_mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: hive_airport
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: password123
+      MYSQL_ROOT_PASSWORD: rootpass
+    volumes:
+      - ./database:/database
+      - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+    ports:
+     - "3307:3306"

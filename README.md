@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hive Airport Vulnerable Web Application ✈️
 
 Welcome to the **Hive Airport** vulnerable web application! This intentionally insecure PHP app is designed for security enthusiasts, developers, and penetration testers to explore and learn about common web vulnerabilities in a realistic airport management context. 🛠️
@@ -82,3 +83,102 @@ Dive in, experiment, and learn. Happy hacking! 🚀
 ---
 
 For questions or contributions, please contact the maintainer. 📧
+=======
+# 🐝 Hive Airport Management System ✈️
+
+⚠️ **WARNING: This is a deliberately vulnerable web application intended for learning and practicing ethical hacking and security testing only. Do NOT deploy this system in a production environment or expose it to the public internet. Use responsibly and ethically.** ⚠️
+
+Welcome to the **Hive Airport Management System** — your all-in-one, buzzing solution for managing airport operations with efficiency, security, and a touch of excitement! 🚀
+
+---
+
+## What is Hive Airport? 🤔
+
+Hive Airport is a comprehensive web-based platform designed to streamline airport management tasks. From flight scheduling to passenger records, security alerts to messaging, and system maintenance — it’s all here, wrapped in a user-friendly interface built for both admins and staff.
+
+---
+
+## Key Features 🛠️
+
+- **Role-Based Dashboards**: Separate, secure portals for Admins and Staff with tailored access.
+- **Flight Management**: Search, update, and manage flights effortlessly.
+- **Passenger Records**: Keep detailed, organized passenger information at your fingertips.
+- **Security Alerts & No-Fly List**: Manage alerts and no-fly entries to keep the airport safe.
+- **Messaging Center**: Communicate seamlessly with staff and passengers.
+- **System Tools & Maintenance Mode**: Admins can ping servers, toggle maintenance mode, and monitor real-time user activity.
+- **System Backup**: Reliable backup system to protect your data.
+- **Real-Time User Activity Logs**: Stay informed about user actions as they happen.
+- **File Uploads**: Upload flight reports and important documents securely.
+- **ADHD-Friendly UI**: Clear sections, bright colors, and intuitive navigation to keep you focused and productive.
+
+---
+
+## Getting Started 🚀
+
+### Prerequisites
+
+- PHP 7.4 or higher
+- MySQL or MariaDB database
+- Web server (Apache, Nginx, etc.)
+
+### Installation Steps
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/hive-airport.git
+cd hive-airport
+```
+
+
+3. **Initialize the database**
+
+Run the setup script to create all necessary tables and seed data:
+
+```bash
+sh setup.sh
+```
+
+4. **Deploy the application**
+
+Configure your web server to serve the project directory. Access the admin and staff dashboards via your browser.
+
+---
+
+## Quick Tips & Tricks 🐝
+
+- Admin users have full control over system settings and tools.
+- Staff users have access to operational features relevant to their roles.
+- Use the real-time activity logs to monitor user actions and system health.
+- The UI is designed to be easy on the eyes and simple to navigate — no distractions, just productivity.
+
+---
+
+## Contributing 🤝
+
+Want to make Hive Airport even better? Contributions are welcome!
+
+- Fork the repo
+- Create a feature branch (`git checkout -b feature/awesome-feature`)
+- Commit your changes (`git commit -m "Add awesome feature"`)
+- Push to your branch (`git push origin feature/awesome-feature`)
+- Open a Pull Request
+
+---
+
+## Support & Contact 📞
+
+- Check the GitHub issues for help and feature requests.
+- Email us at support@hiveairport.com
+- Join the community forums to connect with other users.
+
+---
+
+## License 📄
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Thanks for choosing Hive Airport! Let’s make airport management a breeze! 🐝✈️✨
+>>>>>>> c495875 (Add profile_pic column migration and fix profile.php error)

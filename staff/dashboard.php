@@ -252,7 +252,11 @@ $csrf_token = $_SESSION['csrf_token'];
                 <h2>Passenger Records</h2>
                 <div id="passenger-list">
                     <?php
+<<<<<<< HEAD
                     $passenger_query = "SELECT passenger_id, full_name, passport_number, email, phone, date_of_birth, nationality, flight_code, seat_number, check_in_status FROM passengers";
+=======
+                    $passenger_query = "SELECT passenger_id, full_name, passport_number, email, phone, date_of_birth, nationality, id, seat_number, check_in_status FROM passengers";
+>>>>>>> c495875 (Add profile_pic column migration and fix profile.php error)
                     $passenger_result = $conn->query($passenger_query);
                     if ($passenger_result && $passenger_result->num_rows > 0) {
                         echo '<table id="passenger-table" class="display" style="width:100%">';
@@ -266,7 +270,11 @@ $csrf_token = $_SESSION['csrf_token'];
                             echo '<td>' . htmlspecialchars($row['phone']) . '</td>';
                             echo '<td>' . htmlspecialchars($row['date_of_birth']) . '</td>';
                             echo '<td>' . htmlspecialchars($row['nationality']) . '</td>';
+<<<<<<< HEAD
                             echo '<td>' . htmlspecialchars($row['flight_code']) . '</td>';
+=======
+                            echo '<td>' . htmlspecialchars($row['id']) . '</td>';
+>>>>>>> c495875 (Add profile_pic column migration and fix profile.php error)
                             echo '<td>' . htmlspecialchars($row['seat_number']) . '</td>';
                             echo '<td>' . htmlspecialchars($row['check_in_status']) . '</td>';
                             echo '</tr>';
